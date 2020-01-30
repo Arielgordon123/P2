@@ -13,7 +13,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='P2',  # Required
-    version='0.0.7',  # Required
+    version='0.0.8',  # Required
     description='A sample P2',  # Optional
     long_description=long_description,  # Optional
     long_description_content_type='text/markdown',  # Optional (see note above)
@@ -33,7 +33,7 @@ setup(
     python_requires='>=3.5',
     install_requires=['boto3'],  # Optional
     dependency_links=[
-        '/home/ariel/Documents/devops/python/P1/dist/P1-0.0.6-py3-none-any.whl'
+        'https://github.com/Arielgordon123/P1/releases/download/v0.0.6/P1-0.0.6-py3-none-any.whl'
     ],
     entry_points={  # Optional
         'console_scripts': [
