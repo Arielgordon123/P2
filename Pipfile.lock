@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3b29c0d8d7a2bcf674cbaa2051083f33f04809ec4e03afab9d957e7ec1660757"
+            "sha256": "3d513a82d85ab66fae3649b2e6f99aaac3c2666473dcc1957fada8036c91299b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -38,11 +38,12 @@
             "version": "==2.8"
         },
         "p1": {
+            "file": "https://github.com/Arielgordon123/P1/releases/download/v0.0.6/P1-0.0.6-py3-none-any.whl",
             "hashes": [
-                "sha256:7ad3b3599c55cb797b2a7ee04326733649108ff91bcbb22ec4fa18fbe4cb3887"
+                "sha256:e21e24dd20765686648810f8bd99663105a77c294958a53a158dd9272f6cabae"
             ],
-            "path": "/home/ariel/Documents/devops/python/P1/dist/P1-0.0.4-py3-none-any.whl",
-            "version": "==0.0.4"
+            "index": "pypi",
+            "version": "==0.0.6"
         },
         "requests": {
             "hashes": [
